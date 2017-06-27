@@ -1,0 +1,86 @@
+@import "bourbon"
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	#feedback-form
+		bottom: -500px	
+
+	.left, .right
+		text-align: center	
+
+	.text
+		margin: 0	
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		-o-transform: none !important
+		-moz-transform: none !important
+		-ms-transform: none !important
+		-webkit-transform: none !important
+		transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+
+	#feedback-form
+		bottom: -465px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.about img
+		max-width: 300px
+		
+	input[type=text], .input-bloc, .wrapper-button, #send 
+		max-width: 200px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	.about img
+		max-width: 250px
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/	
+			
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
