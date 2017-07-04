@@ -1,0 +1,244 @@
+@import "bourbon"
+@import "vars.sass"
+
+body
+	font-size: 16px
+	min-width: 320px /*!!!!*/
+	position: relative
+	line-height: 1.6
+	font-family: "RobotoRegular", sans-serif
+	overflow-x: hidden /**/
+	color: $text-color
+
+.hidden
+	display: none
+
+.button-wrap
+	text-align: right
+
+section
+	padding: 58px 0px 68px 0px
+	
+	.s_dask
+		h2, h3, b
+			color: white
+
+h2
+	color: $blue-color
+	font-size: 50px
+	line-height: 56px
+	margin-top: 0
+	margin-bottom: 50px
+	text-align: center
+	font-weight: normal
+	font-family: "Cleanvertising", sans-serif
+
+h1	
+	font-family: "Cleanvertising", sans-serif
+	font-size: 60px
+	color: $white-color
+	margin: 0
+	font-weight: normal
+	line-height: 56px
+
+h4
+	color: #9b1818
+	font-size: 30px
+	font-weight: bold
+	margin: 0
+
+p strong
+	font-family: "RobotoBold", sans-serif
+	font-weight: bold
+
+.button	
+	width: 220px
+	height: 47px
+	background-color: #000
+	border: none
+	border-radius: 3px
+	cursor: pointer
+	display: inline-block
+	color: $white-color
+	line-height: 47px
+	text-align: center
+	text-transform: uppercase
+	font-size: 16px
+	font-family: "RobotoBold", sans-serif
+	&.btn-red
+			background-color: $red-color
+	&.btn-green
+			background-color: $green-color
+	&.btn-white
+			background-color: $white-color
+			color: $dark-color
+
+a.button
+		color: $white-color
+		text-decoration: none
+
+header
+	background-image: url("img/top_bg.jpg")
+	min-height: 730px
+	background-position: top center /*!!!!!!!!!!!!*/
+	background-size: cover  /*!!!!!!!!!!!!!!*/
+	color: white	
+	padding-bottom: 40px
+
+.top-header
+	margin: 30px 0 30px 0
+	font-family: "RobotoRegular", sans-serif
+
+.logo
+	text-align: left	
+	font-size: 40px
+	font-weight: bold		
+	margin: 0
+
+	a
+		color: $white-color
+		text-decoration: none
+
+.tab_phone
+	text-align: right	
+
+	.tab
+		text-transform: uppercase
+		cursor: pointer	
+
+	.active
+		text-decoration: underline
+
+	.tab_item		
+		/*display: none*/
+		font-size: 35px
+		font-family: "RobotoBold", sans-serif
+
+		:first-child
+			/*display: block*/
+
+.top-description
+	margin: 30px 0 30px 0
+
+	h3
+		font-size: 37px
+		font-family: "Cleanvertising", sans-serif
+		color: $white-color
+		margin: 0
+		font-weight: normal
+		padding-top: 10px
+
+.tab-header
+	color: $dark-color
+	font-weight: bold
+	text-transform: uppercase
+	margin-top: 25px	
+	
+	.tabs
+		padding: 23px 0px 18px 0px
+
+		span
+			padding: 0
+			margin: 0
+
+		.tab
+			margin: 0px
+			color: $white-color
+			text-decoration: none
+			padding: 25px 25px 20px 20px
+			background-color: rgba(255, 255, 255, 0.25)
+			cursor: pointer
+
+		.active
+    	color: $dark-color		
+    	background-color: rgba(255, 255, 255, 0.6)	
+	
+	.tab_content
+		.tab_item	
+			background-color: rgba(255, 255, 255, 0.6)
+			padding: 15px 30px 20px 30px
+
+			p
+				position: relative
+				padding-left: 40px
+				font-size: 18px
+				font-family: "RobotoBold", sans-serif
+
+			i
+				position: absolute
+				left: 0px
+				color: #706a67				
+				top: 5px
+				font-size: 26px
+				line-height: 26px				
+
+		a:hover
+				background-color: $red-dark-color	
+
+.s-tizers
+	background-image: linear-gradient(to top, #e8eff7 0%, #c6d8ee 100%);
+	font-family: "Cleanvertising", sans-serif
+	color: $blue-color
+	font-weight: 300
+	text-transform: uppercase
+	padding-top: 52px
+	padding-bottom: 0px
+	
+	span
+		font-size: 15px
+		display: block
+
+	strong
+		font-weight: 300
+		font-size: 22px
+		display: block
+	
+	.row
+		> div
+			padding-bottom: 37px
+
+.tiz-desk, .tiz-img
+	display: inline-block
+	vertical-align: bottom
+
+.tiz-img i
+	font-size: 70px
+	margin-right: 5px
+
+.tiz-img .fa-number
+	font-family: "RobotoRegular", sans-serif
+	line-height: 40px
+	font-size: 75px
+	letter-spacing: -12px
+	margin-right: 13px
+
+.s-tizers .row
+	> div:nth-child(1)	
+		span
+			font-size: 17px
+			line-height: 36px
+		strong
+			font-size: 25px
+			line-height: 29px
+	> div:nth-child(2)	
+		span
+			font-size: 14px
+			line-height: 36px
+		strong
+			font-size: 25px
+			line-height: 29px		
+	> div:nth-child(3)	
+		span
+			font-size: 13px
+			line-height: 36px
+		strong
+			font-size: 20px
+			line-height: 29px	
+	> div:nth-child(4)	
+		span
+			font-size: 11px
+			line-height: 36px
+		strong
+			font-size: 19px
+			line-height: 29px			
+
